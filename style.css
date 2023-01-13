@@ -1,0 +1,242 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: auto;
+        background-image: url('https://wallpaperaccess.com/full/729383.jpg');
+        background-position:center;
+         background-size:cover;
+        height: 105vh;
+}
+        .navbar{
+            width: 1200px;
+            height:75px;
+            margin: auto;
+        }
+        .icon{
+            width:200px;
+            float:left;
+            height:70px;
+        }
+        li{
+            margin: 0 10px;
+            cursor:pointer;
+        }
+        
+        .flex  li{
+            flex:1;
+        
+            display: inline-block;
+           justify-content: space-between;
+           align-items: center;
+           padding: 5px 10px;
+           position: relative;
+           
+           }
+    .flex{
+    color:black;
+    text-decoration: none;
+    font-size: 30px;
+
+    list-style: none;
+}
+  .flex li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background: #0631f3;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+    }
+    .flex li:hover::after{
+        width: 100%;
+    }
+
+.inp{
+    position: absolute;
+    right: 5px;
+}
+.input{
+    height: 45px;
+    border-radius:10px;
+    font-size: 15px
+}
+.text{
+    padding-left: 30px;
+    margin-right: 5px;
+    outline: 1px solid blue;
+}
+.submit{
+    width: 100px;
+    margin-right: 50px;
+    background:rgb(240, 235, 235);
+    color: rgb(10, 204, 238);
+    border: 1px solid rgb(235, 133, 133);
+    }
+    .submit:hover{
+        background: #eb3f95;
+        cursor: pointer;
+    }
+.text{
+    padding-left: 20px;
+    margin-right: 5px;
+    outline: 1px solid rgb(245, 74, 145);
+}
+.content{
+    width:1300px;
+    height:auto;
+    margin:auto;
+    color:black;
+    position:relative;
+    
+}
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    line-height:  20px ;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 7%;
+    letter-spacing: 2px;
+}
+.content.cn{
+    width:100%;
+    height:60%;
+    background: #f57474;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content.cn a{
+    text-decoration: none;
+    color: rgb(236, 110, 159);
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: rgb(6, 115, 240);
+    cursor: pointer;
+}
+::placeholder{
+        color: #fff;
+}
+.form{
+    width: auto;
+    height: 200px;
+    background-color: rgb(9, 188, 243);
+    border-radius: 10px;
+}
+.form h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.form input{
+        width: 140px;
+        height: 15px;
+        background: transparent;
+        border-bottom: 1px solid blue;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: #fff;
+        margin: 2px;
+        padding: 8px;
+    }
+    .btnn:hover{
+        background: #eb4e63;
+        cursor: pointer;
+    }
+    .course{
+    width:auto;
+    margin-top: 3%;
+    text-align: center;
+    background-image: url('https://www.xmple.com/wallpaper/blue-pink-gradient-linear-2800x1752-c2-ff69b4-00ffff-a-90-f-14.svg');
+    background-size:cover;
+    height: 80vh;
+    }
+     h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    p{
+        color:black;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+    }
+    .row{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+.course-col:hover{
+    flex-basis: 31%;
+    background: #f08d8d;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px  12px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.about{
+    width:auto;
+    text-align: center;
+     background-image: url('https://img.freepik.com/premium-photo/pastel-tone-purple-pink-blue-gradient-defocused-abstract-photo-smooth-lines_49683-4777.jpg?w=2000');
+    background-position:cover;
+    background-size:cover;
+    height: 75vh;
+}
+
+   
+/* CSS for footer */
+.footer {
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://www.xmple.com/wallpaper/blue-pink-gradient-linear-1920x1080-c2-ff69b4-00bfff-a-90-f-14.svg');
+    padding: 2px 3px;
+
+  }
+  
+  .footer .copy {
+    color: rgb(42, 6, 247);
+  }
+  .links {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+ .links span {
+    font-size: 20px;
+    color: rgb(15, 38, 241);
+    text-transform: uppercase;
+    margin: 10px 0;
+    text-align: center;
+  }
+.links img{
+    float: left;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+
+
+
+    
+      
+
+   
+
